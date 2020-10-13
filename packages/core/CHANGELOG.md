@@ -1,5 +1,11 @@
 # xstate
 
+## 4.13.1
+
+### Patch Changes
+
+- [`72b0880e`](https://github.com/davidkpiano/xstate/commit/72b0880e6444ae009adca72088872bb5c0760ce3) [#1504](https://github.com/davidkpiano/xstate/pull/1504) Thanks [@Andarist](https://github.com/Andarist)! - Added `status` property on the `Interpreter` - this can be used to differentiate not started, running and stopped interpreters. This property is best compared to values on the new `InterpreterStatus` export.
+
 ## 4.13.0
 
 ### Minor Changes

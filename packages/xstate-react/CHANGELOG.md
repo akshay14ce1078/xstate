@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2
+
+### Patch Changes
+
+- [`72b0880e`](https://github.com/davidkpiano/xstate/commit/72b0880e6444ae009adca72088872bb5c0760ce3) [#1504](https://github.com/davidkpiano/xstate/pull/1504) Thanks [@Andarist](https://github.com/Andarist)! - Fixed issue with `useService` returning an initial state for services in their final states.
+
 ## 1.0.1
 
 ### Patch Changes
@@ -25,7 +31,7 @@ All notable changes to this project will be documented in this file.
 - The `useActor` hook now takes a second argument: `getSnapshot` which is a function that should return the last emitted value:
 
   ```js
-  const [state, send] = useActor(someActor, (actor) => actor.current);
+  const [state, send] = useActor(someActor, actor => actor.current);
   ```
 
 ## [1.0.0-rc.6]
